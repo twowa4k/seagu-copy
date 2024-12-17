@@ -24,8 +24,8 @@
 
             bindings = <
 &kp KP_N7  &kp M  &kp KP_N9       &kp KP_N4
-&kp KP_N5  &kp C  &kp E           &kp E
-&kp H      &kp F  &tog BLUETOOTH
+&kp KP_N5  &kp C  &kp E           &tog BLUETOOTH
+
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -56,8 +56,8 @@
             display-name = "Numpad";
             bindings = <
 &kp N1     &kp N2        &kp N3          &kp N4
-&kp KP_N5  &kp KP_N6     &kp KP_N1       &kp KP_N2
-&kp KP_N3  &kp KP_MINUS  &tog BLUETOOTH
+&kp KP_N5  &kp KP_N6     &kp KP_N1    &tog BLUETOOTH
+
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
