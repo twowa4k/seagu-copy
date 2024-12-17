@@ -23,7 +23,7 @@
             // +------+------+------+------+  
 
             bindings = <
-&kp KP_N7  &kp M  &kp C  &kp KP_N4  &kp KP_N5  &kp B  &kp E  &tog BLUETOOTH
+&kp KP_N7  &kp M  &kp D  &kp KP_N4  &kp KP_N5  &kp B  &kp E  &tog BLUETOOTH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
