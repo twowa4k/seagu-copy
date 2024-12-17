@@ -24,8 +24,8 @@
 
             bindings = <
 &kp KP_N7  &kp KP_N8  &kp KP_N9       &kp KP_N4
-&kp KP_N5  &kp C      &kp E           &kp E
-&kp H      &kp F      &tog BLUETOOTH
+&kp KP_N5  &kp C      &kp E           &tog BLUETOOTH
+
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -46,8 +46,8 @@
 
             bindings = <
 &bt BT_CLR    &kp N4  &kp N5          &kp N6
-&kp N7        &kp N8  &bt BT_SEL 0    &bt BT_SEL 1
-&bt BT_SEL 2  &none   &tog BLUETOOTH
+&kp N7        &kp N8  &bt BT_SEL 0    &tog BLUETOOTH
+
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
